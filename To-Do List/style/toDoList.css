@@ -1,0 +1,46 @@
+body{
+  font-family:Arial, Helvetica, sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lavenderblush;
+}
+.todo-grid,
+.todo-grid-input{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.todo-grid-input{
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+.name-input,
+.date-input{
+padding: 7px;
+font-size: 15px;
+}
+.date-input{
+  cursor: pointer;
+}
+.button{
+  cursor: pointer;
+  background-color: green;
+  color: whitesmoke;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.button2{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkred;
+  color: whitesmoke;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
